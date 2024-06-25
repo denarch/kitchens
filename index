@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen Configurator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="configurator">
+        <h1>Kitchen Configurator</h1>
+        <div class="image-container">
+            <img id="kitchen-image" src="images/default.jpg" alt="Kitchen Image">
+        </div>
+        <div class="controls">
+            <div class="control">
+                <label for="worktop-select">Choose Worktop:</label>
+                <select id="worktop-select">
+                    <option value="worktop1">Marble</option>
+                    <option value="worktop2">Granite</option>
+                    <option value="worktop3">Quartz</option>
+                </select>
+            </div>
+            <div class="control">
+                <label for="cabinet-select">Choose Cabinets:</label>
+                <select id="cabinet-select">
+                    <option value="cabinet1">White</option>
+                    <option value="cabinet2">Gray</option>
+                    <option value="cabinet3">Black</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
